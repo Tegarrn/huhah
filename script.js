@@ -29,6 +29,6 @@ function buyNow(productName, price, quantityId) {
     let quantity = document.getElementById(quantityId).value;
     let total = price * quantity;
     let message = `Halo, saya ingin membeli ${productName} sebanyak ${quantity} buah dengan total harga Rp ${total}.`;
-    let whatsappUrl = `https://wa.me/nomor_whatsapp_anda?text=${encodeURIComponent(message)}`;
+    let whatsappUrl = `https://wa.me/6289521914717?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
