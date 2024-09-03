@@ -10,11 +10,14 @@
 </head>
 
 <body>
+    
     <div class="container">
+       
+        
         <h1>Selamat Datang di Toko Kami</h1>
         <h1 style="color: red;">HUHAH</h1>
         <div class="product" id="miepedes">
-            <img src="./source/product1.jpeg" alt="mie pedes" class="foto1">
+            <img src="./source/product2.jpeg" alt="mie pedes" class="foto1">
             <h2>Mie pedas</h2>
             <p>Rp 8.000</p>
             <div class="quantity-control">
@@ -22,10 +25,10 @@
                 <input type="number" id="quantity1" value="1" min="1">
                 <button onclick="increaseQuantity('quantity1')">+</button>
             </div>
-            <button onclick="buyNow('mie pedas', 100000, 'quantity1')">Beli</button>
+            <button onclick="buyNow('mie pedas', 8000, 'quantity1')">Beli</button>
         </div>
         <div class="product" id="pangsit">
-            <img src="./source/product2.jpeg" alt="Pangsit" class="foto2">
+            <img src="./source/product1.jpeg" alt="Pangsit" class="foto2">
             <h2>Pangsit</h2>
             <p>Rp 1.000</p>
             <div class="quantity-control">
@@ -34,7 +37,7 @@
                 <button onclick="increaseQuantity('quantity2')">+</button>
             </div>
             <p id="error-message" style="color: red; display: none;">Minimal pembelian 3 unit!</p>
-            <button onclick="buyNow('Pangsit', 150000, 'quantity2')">Beli</button>
+            <button onclick="buyNow('Pangsit', 1000, 'quantity2')">Beli</button>
         </div>
         <!-- Tambahkan produk lain sesuai kebutuhan -->
     </div>
